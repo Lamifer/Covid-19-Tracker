@@ -1,6 +1,6 @@
 $(document).ready(function(){
     //Get json data from API
-    $.getJSON("https://api.covid19india.org/data.json",function(data){
+    $.getJSON("https://data.covid19india.org/data.json",function(data){
         var states= [];
         var active= [];
         var death= [];
