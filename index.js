@@ -45,9 +45,6 @@ $(document).ready(function(){
         $("#active").append(total_active);
         $("#recovered").append(total_recovered);
         $("#deceased").append(total_death);
-
-        //Test Part
-        alert("Confirmed"+confirmed);
         
         //Chart part
 
